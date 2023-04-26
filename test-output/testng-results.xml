@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-26T09:42:31 IST" name="Default suite" finished-at="2023-04-26T09:42:45 IST" duration-ms="13905">
+    <groups>
+    </groups>
+    <test started-at="2023-04-26T09:42:31 IST" name="Default test" finished-at="2023-04-26T09:42:45 IST" duration-ms="13905">
+      <class name="com.orange.tests.TS2_AdminTests">
+        <test-method is-config="true" signature="getuserDetails()[pri:0, instance:com.orange.tests.TS2_AdminTests@6c1a5b54]" started-at="2023-04-26T09:42:25 IST" name="getuserDetails" finished-at="2023-04-26T09:42:31 IST" duration-ms="6613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getuserDetails -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.orange.tests.TS2_AdminTests@6c1a5b54]" started-at="2023-04-26T09:42:31 IST" name="openApp" finished-at="2023-04-26T09:42:37 IST" duration-ms="5646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TC1_ProvideAdminRights(java.util.HashMap)[pri:0, instance:com.orange.tests.TS2_AdminTests@6c1a5b54]" started-at="2023-04-26T09:42:37 IST" name="TC1_ProvideAdminRights" data-provider="getTC1_ProvideAdminRightsData" finished-at="2023-04-26T09:42:45 IST" duration-ms="7878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=Enabled, UserName=Sachiko Lang, TCName=TC1_ProvideAdminRights, FirstName=Sachiko, UserRole=Admin, Runmode=yes, LastName=Lang, Password=Password@1234}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_ProvideAdminRights -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.orange.tests.TS2_AdminTests@6c1a5b54]" started-at="2023-04-26T09:42:45 IST" name="close" finished-at="2023-04-26T09:42:45 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.orange.tests.TS2_AdminTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
